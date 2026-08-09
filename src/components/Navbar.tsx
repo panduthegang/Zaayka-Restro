@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
         {/* 4. LOGO (Center Column) */}
         <a 
           href="#home" 
-          className="nav-divider flex items-center justify-center font-playfair font-normal text-3xl md:text-4xl lg:text-[42px] tracking-tight text-[#2A0403] hover:opacity-90 transition-opacity"
+          className="nav-divider flex items-center justify-center font-instrument font-normal text-3xl md:text-4xl lg:text-[46px] tracking-tight text-[#2A0403] hover:opacity-90 transition-opacity"
         >
           ZAAYKA.
         </a>

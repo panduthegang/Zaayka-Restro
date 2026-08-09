@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-serif: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+  --font-instrument: 'Instrument Serif', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   
   --color-cream: #FFF5DF;
@@ -20,8 +21,12 @@
   }
 }
 
+.font-instrument {
+  font-family: 'Instrument Serif', serif;
+}
+
 .font-playfair {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Instrument Serif', 'Playfair Display', serif;
 }
 
 .font-jakarta {
@@ -42,6 +47,26 @@
 
 .animate-float-cta {
   animation: float-pulse 4s ease-in-out infinite;
+}
+
+/* Infinite Marquee Scroll Animation */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 32s linear infinite;
+}
+
+.animate-infinite-marquee:hover {
+  animation-play-state: paused;
 }
 
 /* Vertical divider helper for grid navbar */

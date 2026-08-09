@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { AboutSection } from '../components/AboutSection'
+import { GallerySection } from '../components/GallerySection'
 import { Footer } from '../components/Footer'
 import { ReservationModal } from '../components/ReservationModal'
 
@@ -26,11 +27,14 @@ export const LandingPage: React.FC = () => {
         {/* Hero Section */}
         <Hero onOpenReservation={handleOpenReservation} />
 
-        {/* About Us Section matching target UI */}
+        {/* About Us Section */}
         <AboutSection />
+
+        {/* Gallery Section */}
+        <GallerySection />
       </main>
 
-      {/* Footer Component matching the target UI */}
+      {/* Footer Component */}
       <Footer />
 
       {/* Table Reservation Modal */}

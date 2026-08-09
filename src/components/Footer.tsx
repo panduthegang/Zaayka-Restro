@@ -36,15 +36,15 @@ export const Footer: React.FC = () => {
           {/* Left Column: Massive & Tall ZAAYKA. Logo covering empty space + Social Icons */}
           <div className="lg:col-span-5 flex flex-col justify-between space-y-8 lg:border-r lg:border-[#FFF5DF]/15 lg:pr-10">
             <div className="pt-1">
-              {/* Tall, bold, condensed ZAAYKA. Logo matching the DRIZZLE. target UI height */}
-              <h2 className="font-playfair font-black text-6xl sm:text-7xl md:text-8xl lg:text-[112px] xl:text-[124px] tracking-tighter text-[#FFF5DF] leading-[0.88] uppercase transform scale-y-110 origin-left inline-block">
+              {/* Tall, bold, condensed ZAAYKA. Logo in Instrument Serif */}
+              <h2 className="font-instrument font-normal text-6xl sm:text-7xl md:text-8xl lg:text-[116px] xl:text-[132px] tracking-tighter text-[#FFF5DF] leading-[0.88] uppercase transform scale-y-110 origin-left inline-block">
                 ZAAYKA<span className="text-[#BF392B]">.</span>
               </h2>
             </div>
 
             {/* Social Media Section */}
             <div className="space-y-3 pt-6">
-              <h4 className="font-playfair text-xl md:text-2xl text-[#FFF5DF]">
+              <h4 className="font-instrument font-normal text-2xl md:text-3xl text-[#FFF5DF]">
                 Social Media
               </h4>
               <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ export const Footer: React.FC = () => {
             
             {/* Newsletter Subscription Box */}
             <div className="space-y-3.5">
-              <h3 className="font-playfair text-2xl sm:text-3xl lg:text-[38px] text-[#FFF5DF] leading-tight">
+              <h3 className="font-instrument font-normal text-3xl sm:text-4xl lg:text-[44px] text-[#FFF5DF] leading-tight">
                 Get tasty news straight to your inbox
               </h3>
               <p className="font-jakarta text-xs sm:text-sm text-[#FFF5DF]/75">

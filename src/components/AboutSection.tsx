@@ -18,8 +18,8 @@ export const AboutSection: React.FC = () => {
               </div>
             </div>
 
-            {/* Main Heading - Playfair Display serif */}
-            <h2 className="font-playfair font-medium text-4xl sm:text-5xl md:text-6xl lg:text-[62px] text-[#2A0403] leading-[1.08] tracking-tight max-w-3xl">
+            {/* Main Heading - Instrument Serif */}
+            <h2 className="font-instrument font-normal text-4xl sm:text-5xl md:text-6xl lg:text-[70px] text-[#2A0403] leading-[1.05] tracking-tight max-w-3xl">
               Blending tradition & innovation to create unforgettable dining experiences
             </h2>
 

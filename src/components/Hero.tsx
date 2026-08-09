@@ -19,8 +19,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
           </div>
         </div>
 
-        {/* Main Headline - Playfair Display serif matching attached image */}
-        <h1 className="font-playfair font-medium text-5xl sm:text-7xl md:text-8xl lg:text-[100px] text-[#2A0403] leading-[1.08] tracking-tight max-w-6xl mx-auto">
+        {/* Main Headline - Instrument Serif matching target aesthetic */}
+        <h1 className="font-instrument font- text-6xl sm:text-8xl md:text-[110px] lg:text-[125px] text-[#2A0403] leading-[1.02] tracking-tight max-w-6xl mx-auto">
           Experience the <br className="hidden sm:inline" />
           Language of Taste
         </h1>
