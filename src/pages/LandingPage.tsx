@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
+import { Footer } from '../components/Footer'
 import { ReservationModal } from '../components/ReservationModal'
 
 export const LandingPage: React.FC = () => {
@@ -23,6 +24,9 @@ export const LandingPage: React.FC = () => {
       <main className="flex-1">
         <Hero onOpenReservation={handleOpenReservation} />
       </main>
+
+      {/* Footer Component matching the attached design */}
+      <Footer />
 
       {/* Table Reservation Modal */}
       <ReservationModal

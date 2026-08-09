@@ -39,7 +39,7 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({ isOpen, onCl
         <div className="flex items-center justify-between px-6 py-5 border-b border-[#2A0403]/15 bg-[#FFF5DF]">
           <div className="flex items-center gap-2.5">
             <UtensilsCrossed className="w-5 h-5 text-[#BF392B]" />
-            <h3 className="font-playfair font-bold text-2xl text-[#2A0403]">Reserve a Table at Drizzle.</h3>
+            <h3 className="font-playfair font-bold text-2xl text-[#2A0403]">Reserve a Table at ZAAYKA.</h3>
           </div>
           <button
             onClick={onClose}

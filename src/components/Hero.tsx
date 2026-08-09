@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
         
         {/* Top Pill Badge */}
         <div className="inline-block mb-6 sm:mb-8">
-          <div className="inline-flex items-center px-4 sm:px-5 py-1.5 rounded-full border border-[#2A0403] bg-[#FFF5DF] text-xs sm:text-[13px] md:text-sm font-jakarta text-[#2A0403] tracking-wide shadow-sm">
+          <div className="inline-flex items-center px-5 sm:px-6 py-2 rounded-full border border-[#2A0403] bg-[#FFF5DF] text-sm sm:text-base font-jakarta text-[#2A0403] tracking-wide shadow-sm">
             <span>Made with <strong className="font-bold">Love</strong>, Served with <strong className="font-bold">Joy</strong></span>
           </div>
         </div>

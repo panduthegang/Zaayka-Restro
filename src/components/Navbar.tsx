@@ -30,7 +30,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
         {/* 1. HOME */}
         <a 
           href="#home" 
-          className="nav-divider flex items-center justify-center font-jakarta font-medium text-[13px] tracking-[0.12em] uppercase hover:bg-[#2A0403]/[0.03] transition-colors duration-200"
+          className="nav-divider flex items-center justify-center font-jakarta font-semibold text-sm md:text-[15px] tracking-[0.1em] uppercase hover:bg-[#2A0403]/[0.03] transition-colors duration-200"
         >
           HOME
         </a>
@@ -41,9 +41,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
           onMouseEnter={() => setActiveDropdown('menu')}
           onMouseLeave={() => setActiveDropdown(null)}
         >
-          <button className="flex items-center gap-1.5 font-jakarta font-medium text-[13px] tracking-[0.12em] uppercase hover:text-[#BF392B] transition-colors duration-200 py-6 px-4 w-full justify-center">
+          <button className="flex items-center gap-2 font-jakarta font-semibold text-sm md:text-[15px] tracking-[0.1em] uppercase hover:text-[#BF392B] transition-colors duration-200 py-6 px-4 w-full justify-center">
             <span>OUR MENU</span>
-            <ChevronDown className="w-3.5 h-3.5 opacity-70 group-hover:rotate-180 transition-transform duration-300" />
+            <ChevronDown className="w-4 h-4 opacity-70 group-hover:rotate-180 transition-transform duration-300" />
           </button>
 
           {/* Menu Dropdown Card */}
@@ -55,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
                   href="#menu"
                   className="flex flex-col p-3 rounded-lg hover:bg-[#BF392B]/10 transition-colors group/item"
                 >
-                  <span className="font-jakarta font-semibold text-sm text-[#2A0403] group-hover/item:text-[#BF392B]">
+                  <span className="font-jakarta font-semibold text-base text-[#2A0403] group-hover/item:text-[#BF392B]">
                     {item.title}
                   </span>
                   <span className="font-jakarta text-xs text-[#2A0403]/60 mt-0.5">
@@ -70,7 +70,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
         {/* 3. ABOUT US */}
         <a 
           href="#about" 
-          className="nav-divider flex items-center justify-center font-jakarta font-medium text-[13px] tracking-[0.12em] uppercase hover:bg-[#2A0403]/[0.03] hover:text-[#BF392B] transition-colors duration-200"
+          className="nav-divider flex items-center justify-center font-jakarta font-semibold text-sm md:text-[15px] tracking-[0.1em] uppercase hover:bg-[#2A0403]/[0.03] hover:text-[#BF392B] transition-colors duration-200"
         >
           ABOUT US
         </a>
@@ -78,15 +78,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
         {/* 4. LOGO (Center Column) */}
         <a 
           href="#home" 
-          className="nav-divider flex items-center justify-center font-playfair font-extrabold text-3xl md:text-4xl tracking-tight text-[#2A0403] hover:opacity-90 transition-opacity"
+          className="nav-divider flex items-center justify-center font-playfair font-normal text-3xl md:text-4xl lg:text-[42px] tracking-tight text-[#2A0403] hover:opacity-90 transition-opacity"
         >
-          Drizzle.
+          ZAAYKA.
         </a>
 
         {/* 5. GALLERY */}
         <a 
           href="#gallery" 
-          className="nav-divider flex items-center justify-center font-jakarta font-medium text-[13px] tracking-[0.12em] uppercase hover:bg-[#2A0403]/[0.03] hover:text-[#BF392B] transition-colors duration-200"
+          className="nav-divider flex items-center justify-center font-jakarta font-semibold text-sm md:text-[15px] tracking-[0.1em] uppercase hover:bg-[#2A0403]/[0.03] hover:text-[#BF392B] transition-colors duration-200"
         >
           GALLERY
         </a>
@@ -99,10 +99,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
         >
           <button 
             onClick={onOpenReservation}
-            className="flex items-center gap-1.5 font-jakarta font-medium text-[13px] tracking-[0.12em] uppercase hover:text-[#BF392B] transition-colors duration-200 py-6 px-4 w-full justify-center"
+            className="flex items-center gap-2 font-jakarta font-semibold text-sm md:text-[15px] tracking-[0.1em] uppercase hover:text-[#BF392B] transition-colors duration-200 py-6 px-4 w-full justify-center"
           >
             <span>RESERVATIONS</span>
-            <ChevronDown className="w-3.5 h-3.5 opacity-70 group-hover:rotate-180 transition-transform duration-300" />
+            <ChevronDown className="w-4 h-4 opacity-70 group-hover:rotate-180 transition-transform duration-300" />
           </button>
 
           {/* Reservations Dropdown Card */}
@@ -114,7 +114,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
                   onClick={onOpenReservation}
                   className="w-full text-left flex flex-col p-3 rounded-lg hover:bg-[#BF392B]/10 transition-colors group/item"
                 >
-                  <span className="font-jakarta font-semibold text-sm text-[#2A0403] group-hover/item:text-[#BF392B]">
+                  <span className="font-jakarta font-semibold text-base text-[#2A0403] group-hover/item:text-[#BF392B]">
                     {item.title}
                   </span>
                   <span className="font-jakarta text-xs text-[#2A0403]/60 mt-0.5">
@@ -129,7 +129,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
         {/* 7. CONTACT */}
         <a 
           href="#contact" 
-          className="flex items-center justify-center font-jakarta font-medium text-[13px] tracking-[0.12em] uppercase hover:bg-[#2A0403]/[0.03] hover:text-[#BF392B] transition-colors duration-200"
+          className="flex items-center justify-center font-jakarta font-semibold text-sm md:text-[15px] tracking-[0.1em] uppercase hover:bg-[#2A0403]/[0.03] hover:text-[#BF392B] transition-colors duration-200"
         >
           CONTACT
         </a>
@@ -139,7 +139,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
       {/* Mobile Navigation Header */}
       <div className="lg:hidden flex items-center justify-between px-6 py-4">
         <a href="#home" className="font-playfair font-extrabold text-3xl tracking-tight text-[#2A0403]">
-          Drizzle.
+          ZAAYKA.
         </a>
         
         <div className="flex items-center gap-3">
