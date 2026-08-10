@@ -133,7 +133,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar: Copyright & Terms */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-jakarta text-xs sm:text-sm text-[#FFF5DF]/70">
-          <p>All the rights reserved to ©Ryllic Studio 2025</p>
+          <p>© 2025 ZAAYKA. All rights reserved.</p>
           <div className="flex items-center gap-5 font-normal">
             <a href="#terms" className="hover:text-[#FFF5DF] transition-colors">Terms & Condition</a>
             <span className="text-[#FFF5DF]/40">•</span>
