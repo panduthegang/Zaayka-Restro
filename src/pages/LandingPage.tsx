@@ -4,6 +4,7 @@ import { Hero } from '../components/Hero'
 import { AboutSection } from '../components/AboutSection'
 import { GallerySection } from '../components/GallerySection'
 import { TestimonialsSection } from '../components/TestimonialsSection'
+import { CareerSection } from '../components/CareerSection'
 import { Footer } from '../components/Footer'
 import { ReservationModal } from '../components/ReservationModal'
 
@@ -33,6 +34,9 @@ export const LandingPage: React.FC = () => {
 
         {/* Gallery Infinite Marquee Section */}
         <GallerySection />
+
+        {/* Career Opportunity Section */}
+        <CareerSection />
 
         {/* Testimonials Customer Reviews Section */}
         <TestimonialsSection />
