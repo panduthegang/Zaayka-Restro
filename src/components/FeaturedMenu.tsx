@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Utensils } from 'lucide-react'
+
 
 interface MenuItem {
   name: string

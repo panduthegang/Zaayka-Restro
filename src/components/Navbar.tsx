@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ChevronDown, Menu, X, Utensils, Calendar, Phone, Image as GalleryIcon, Info } from 'lucide-react'
+import { ChevronDown, Menu, X } from 'lucide-react'
 
 interface NavbarProps {
   onOpenReservation?: () => void

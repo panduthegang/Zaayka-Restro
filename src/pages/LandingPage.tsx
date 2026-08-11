@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { AboutSection } from '../components/AboutSection'
+import { MenuCategoriesSection } from '../components/MenuCategoriesSection'
 import { GallerySection } from '../components/GallerySection'
-import { TestimonialsSection } from '../components/TestimonialsSection'
 import { CareerSection } from '../components/CareerSection'
+import { TestimonialsSection } from '../components/TestimonialsSection'
 import { Footer } from '../components/Footer'
 import { ReservationModal } from '../components/ReservationModal'
 
@@ -31,6 +32,9 @@ export const LandingPage: React.FC = () => {
 
         {/* About Us Section */}
         <AboutSection />
+
+        {/* Menu Categories Section ("Your next favorite meal awaits") */}
+        <MenuCategoriesSection />
 
         {/* Gallery Infinite Marquee Section */}
         <GallerySection />
