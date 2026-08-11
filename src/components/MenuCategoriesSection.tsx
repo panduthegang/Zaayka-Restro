@@ -88,7 +88,7 @@ export const MenuCategoriesSection: React.FC = () => {
   ]
 
   return (
-    <section id="menu" className="w-full bg-[#FFF5DF] text-[#2A0403] py-14 sm:py-18 md:py-24 overflow-hidden ">
+    <section id="menu" className="w-full bg-[#FFF5DF] text-[#2A0403] py-14 sm:py-18 md:py-10 overflow-hidden ">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-6 mb-10 sm:mb-14">

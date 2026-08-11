@@ -6,6 +6,7 @@ import { MenuCategoriesSection } from '../components/MenuCategoriesSection'
 import { GallerySection } from '../components/GallerySection'
 import { CareerSection } from '../components/CareerSection'
 import { TestimonialsSection } from '../components/TestimonialsSection'
+import { ReservationSection } from '../components/ReservationSection'
 import { Footer } from '../components/Footer'
 import { ReservationModal } from '../components/ReservationModal'
 
@@ -36,6 +37,9 @@ export const LandingPage: React.FC = () => {
         {/* Menu Categories Section ("Your next favorite meal awaits") */}
         <MenuCategoriesSection />
 
+        {/* Reservation Spot CTA Section */}
+        <ReservationSection onOpenReservation={handleOpenReservation} />
+
         {/* Gallery Infinite Marquee Section */}
         <GallerySection />
 
@@ -44,6 +48,7 @@ export const LandingPage: React.FC = () => {
 
         {/* Testimonials Customer Reviews Section */}
         <TestimonialsSection />
+
       </main>
 
       {/* Footer Component */}
